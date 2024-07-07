@@ -15,22 +15,28 @@ function App() {
       <Hero/>
       <div className=' px-5 flex gap-4'>
       <Card
-        image = {card1}
-        title = "Settl Springfield"
-        dprice = "17,000"
-        sprice = "25,000"
+      image = {card1}
+      rating = "4.5"
+      reviewCount = {6}
+      country = "India"
+      title = {"Settl Norcia"}
+      price = "15,000"  
       />
       <Card
       image = {card2}
+      rating = "5.0"
+      reviewCount = {15}
+      country = "India"
       title = "Settl Vernazza"
       price = "19,000"
-      sprice = "27,000"
       />
       <Card
       image = {card3}
-      title = "Settl Norcia"
-      price = "15,000"
-      sprice = "22,000"
+      rating = "4.0"
+      reviewCount = {16}
+      country = "India"
+      title = "Settl Altea"
+      price = "17,000"
       />
       </div>
       
